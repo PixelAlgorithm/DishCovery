@@ -43,18 +43,15 @@ Open **another PowerShell window** and run:
 ```
 npm run server
 ```
-The server will start at http://localhost:5000
-Keep this window open too.
 
 ### Step 4: Start the Frontend
 Open **one more PowerShell window** and run:
 ```
 npm run dev
 ```
-The website will open at http://localhost:5173
 
 ### Step 5: Open in Browser
-Go to your browser and visit: `http://localhost:5173`
+Go to your browser and visit: `http://localhost:5173` (If running locally)
 
 ### Step 6: Add API Key for Chatbot (Important!)
 Open `src/chatbot.jsx` or `src/ChatBotPage.jsx` and add your chatbot API key where needed.
@@ -87,22 +84,7 @@ project/
 └── package.json           # Project dependencies
 ```
 
-## Troubleshooting
-
-**Problem**: MongoDB won't start
-- Make sure MongoDB is installed properly
-- Check if another MongoDB is already running
-
-**Problem**: Port already in use
-- Close any apps using port 5000 or 5173
-- Or change the PORT in server.js
-
-**Problem**: Can't login
-- Make sure MongoDB is running
-- Make sure backend server is running
-- Check the browser console for errors
-
-## For Beginners
+## What I Learned
 
 This is a great project to learn:
 - How frontend (React) talks to backend (Node.js)
@@ -110,4 +92,4 @@ This is a great project to learn:
 - How user authentication works (login/register)
 - How to build a complete website from scratch
 
-Feel free to modify the code and add your own features!
+
