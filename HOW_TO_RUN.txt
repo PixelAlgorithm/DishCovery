@@ -1,0 +1,94 @@
+HOW TO RUN DISHCOVERY PROJECT
+================================
+
+PREREQUISITES:
+- Node.js installed
+- MongoDB installed
+
+STEP 1: INSTALL DEPENDENCIES
+-----------------------------
+Open PowerShell in project folder and run:
+npm install
+
+
+STEP 2: START MONGODB
+----------------------
+Open Terminal 1 (PowerShell) and run:
+mongod --dbpath="C:\Users\Prajwal M\Desktop\project\mongodb-data"
+
+Keep this terminal running.
+
+
+STEP 3: START BACKEND SERVER
+-----------------------------
+Open Terminal 2 (PowerShell) and run:
+cd "C:\Users\Prajwal M\Desktop\project"
+npm run server
+
+Keep this terminal running.
+Backend will run on: http://localhost:5000
+
+
+STEP 4: START FRONTEND (VITE)
+------------------------------
+Open Terminal 3 (PowerShell) and run:
+cd "C:\Users\Prajwal M\Desktop\project"
+npm run dev
+
+Frontend will run on: http://localhost:5173
+
+
+STEP 5: OPEN IN BROWSER
+------------------------
+Open your browser and go to:
+http://localhost:5173
+
+
+PAGES AVAILABLE:
+----------------
+- Home: http://localhost:5173/home
+- Login: http://localhost:5173/login
+- Registration: http://localhost:5173/registration
+- Services: http://localhost:5173/services
+- Recipes: http://localhost:5173/recipe
+- ChatBot: http://localhost:5173/chatbot
+- Suggest Recipe: http://localhost:5173/addrecipe
+- Feedback: http://localhost:5173/feedback
+- Contact: http://localhost:5173/contact
+
+
+FEATURES:
+---------
+1. User Registration and Login (MongoDB)
+2. 5 Indian Recipes with Search by Ingredients
+3. AI ChatBot for Recipe Queries (Gemini API)
+4. Recipe Suggestion Form
+5. Feedback Form
+6. Contact Page with Team Members
+7. Services Page
+8. Logout Functionality
+
+
+TROUBLESHOOTING:
+----------------
+If MongoDB error occurs:
+- Make sure MongoDB is installed
+- Create data directory: mkdir mongodb-data
+- Run with correct path
+
+If backend error occurs:
+- Check if MongoDB is running
+- Check port 5000 is not in use
+
+If frontend error occurs:
+- Run: npm install typed.js
+- Check port 5173 is not in use
+
+
+TECHNOLOGY STACK:
+-----------------
+Frontend: React.js, Vite, Axios, React Router
+Backend: Node.js, Express.js
+Database: MongoDB, Mongoose
+Authentication: bcryptjs, JWT
+AI: Google Gemini API
