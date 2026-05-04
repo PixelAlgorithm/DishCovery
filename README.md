@@ -1,4 +1,4 @@
-# Dishcovery - Recipe Website
+# Dishcovery - Recipe Website 
 
 A simple recipe website where you can browse Indian recipes, register an account, and even chat with a bot about recipes!
 
@@ -65,7 +65,7 @@ Open `src/chatbot.jsx` or `src/ChatBotPage.jsx` and add your chatbot API key whe
 - Add Recipe
 - Chatbot
 - Contact
-- Feedback
+- Feedback 
 
 ## Project Structure
 
@@ -91,5 +91,7 @@ This is a great project to learn:
 - How to store data in a database (MongoDB)
 - How user authentication works (login/register)
 - How to build a complete website from scratch
+
+  
 
 
